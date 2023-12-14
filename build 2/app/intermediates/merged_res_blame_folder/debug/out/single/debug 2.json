@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/layout_activity_main.xml.flat",
+        "source": "com.example.untitled.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.untitled.app-main-64:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.untitled.app-main-64:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.untitled.app-main-64:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/drawable_baseline_my_location_24.xml.flat",
+        "source": "com.example.untitled.app-main-64:/drawable/baseline_my_location_24.xml"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.untitled.app-main-64:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.untitled.app-main-64:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/drawable_location_pin.png.flat",
+        "source": "com.example.untitled.app-main-64:/drawable/location_pin.png"
+    },
+    {
+        "merged": "com.example.untitled.app-merged_res-70:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.untitled.app-main-64:/drawable-v21/launch_background.xml"
+    }
+]

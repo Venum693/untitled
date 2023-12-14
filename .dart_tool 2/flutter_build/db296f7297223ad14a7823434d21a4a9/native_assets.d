@@ -1,0 +1,1 @@
+ /Users/stipe/Desktop/VENU/untitled/.dart_tool/flutter_build/db296f7297223ad14a7823434d21a4a9/native_assets.yaml: 

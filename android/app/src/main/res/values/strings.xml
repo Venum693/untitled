@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapboxNavApplication</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiaGVscHltb3RvIiwiYSI6ImNsbGdxcXJwOTAzY2ozZGxpZGhxNHFkcW0ifQ.VbsZNyu3vnLqhBdh8FGL8w
+</string>
+    <string name="hello_from_secondactivity">Hello from SecondActivity!</string>
+
+</resources>

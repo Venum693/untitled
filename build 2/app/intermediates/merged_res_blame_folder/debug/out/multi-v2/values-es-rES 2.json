@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.untitled.app-mergeDebugResources-68:/values-es-rES/values-es-rES.xml",
+            "map": [
+                {
+                    "source": "/Users/stipe/.gradle/caches/transforms-3/474e987c4d78f41662a3d6970af19046/transformed/jetified-base-2.17.6/res/values-es-rES/values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "83",
+                        "endOffsets": "134"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "83",
+                        "endOffsets": "179"
+                    }
+                },
+                {
+                    "source": "/Users/stipe/.gradle/caches/transforms-3/430ec6fc5ae480387a50b02a436f0b78/transformed/jetified-ui-maps-2.17.6/res/values-es-rES/values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "94",
+                        "endOffsets": "190"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "94",
+                        "endOffsets": "274"
+                    }
+                }
+            ]
+        }
+    ]
+}

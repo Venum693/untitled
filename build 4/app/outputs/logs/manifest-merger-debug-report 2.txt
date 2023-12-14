@@ -1,0 +1,887 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:8:5-38:19
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] /Users/stipe/.gradle/caches/transforms-3/32ba0e85cc550ba62d7c220cf5154b46/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] /Users/stipe/.gradle/caches/transforms-3/32ba0e85cc550ba62d7c220cf5154b46/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:18:5-32:19
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:18:5-32:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:12:5-24:19
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:13:5-38:19
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:13:5-38:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/stipe/.gradle/caches/transforms-3/b296022bcb8988244ebdec69e40f9d3f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/stipe/.gradle/caches/transforms-3/b296022bcb8988244ebdec69e40f9d3f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/stipe/.gradle/caches/transforms-3/819fafab11fbb16f0ce6fabd6f377ee9/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/stipe/.gradle/caches/transforms-3/819fafab11fbb16f0ce6fabd6f377ee9/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/stipe/.gradle/caches/transforms-3/9ad5d44b9bde83a725a208c7d1bf8cc3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/stipe/.gradle/caches/transforms-3/9ad5d44b9bde83a725a208c7d1bf8cc3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+	android:extractNativeLibs
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [com.mapbox.navigation:ui-dropin:2.17.6] /Users/stipe/.gradle/caches/transforms-3/0539ee703b55b4629f1a160636f3366a/transformed/jetified-ui-dropin-2.17.6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.navigation:android:2.17.6] /Users/stipe/.gradle/caches/transforms-3/40708ca7b0b3ff651ce0ead92ae2fc2a/transformed/jetified-android-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-app:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d98f0d3b4f4fbd1c6473e064eedde217/transformed/jetified-ui-app-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maps:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6f49b6629257b6e0db8b1f7e51d08dae/transformed/jetified-ui-maps-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-maneuver:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d8a04cabfb9aefab00d4bc942b43830a/transformed/jetified-ui-maneuver-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-shields:2.17.6] /Users/stipe/.gradle/caches/transforms-3/12c2df0069bd068a4759ce1f6cd0766f/transformed/jetified-ui-shields-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-status:2.17.6] /Users/stipe/.gradle/caches/transforms-3/b41f872bde363eff3d2cc228636f709b/transformed/jetified-ui-status-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.10.0] /Users/stipe/.gradle/caches/transforms-3/32ba0e85cc550ba62d7c220cf5154b46/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ee7a99cdcf45c0284b30c70ac18780c0/transformed/jetified-ui-speedlimit-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2ccc15906ad1f99a0fbc4ea6fac81821/transformed/jetified-ui-tripprogress-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-voice:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d0825598f2dd0424ea0a33fb92c47b5b/transformed/jetified-ui-voice-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/a867eeffb357efdc2081bc9d91adf64a/transformed/jetified-ui-base-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-resources:2.17.6] /Users/stipe/.gradle/caches/transforms-3/265f2577cc161d55c0afce3e51e1ec95/transformed/jetified-ui-resources-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:ui-utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/df8b7178136571f0bb3aaf075a688562/transformed/jetified-ui-utils-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:copilot:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ffef75ff7d6d49af18c49919002c1176/transformed/jetified-copilot-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:2:1-34:12
+MERGED from [com.mapbox.maps:android:10.16.2] /Users/stipe/.gradle/caches/transforms-3/325fb6ffcacfc5f06a0890c0b20123e5/transformed/jetified-android-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:router:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2bf5e11e81561e6fdb60a2f327eeeef9/transformed/jetified-router-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:notification:2.17.6] /Users/stipe/.gradle/caches/transforms-3/5acb84649e18412c1b4dae446571a46c/transformed/jetified-notification-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:navigator:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ab9b643a5d730cc96fe854a136972bf0/transformed/jetified-navigator-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:metrics:2.17.6] /Users/stipe/.gradle/caches/transforms-3/9ed64c37b7d418b6d94fb1484f436bf2/transformed/jetified-metrics-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6c66da04ba9b5bf1b91e95f5edcdf322/transformed/jetified-base-2.17.6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.navigation:utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/7192ebedd851b65dad772d2b78f1c825/transformed/jetified-utils-2.17.6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:2:1-26:12
+MERGED from [com.mapbox.common:okhttp:23.8.4] /Users/stipe/.gradle/caches/transforms-3/49966d8e3ecc1212a5646913ae7e9f13/transformed/jetified-okhttp-23.8.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/281a820bc6e4fc97d39743ad96329142/transformed/jetified-maps-annotation-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a47f0f6790b0fe03e1d1a7d94a08d6d7/transformed/jetified-maps-localization-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c43c5354ea7303a8617ca5660a7bf6ae/transformed/jetified-maps-style-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] /Users/stipe/.gradle/caches/transforms-3/fd02649980af9ec198b15a6e97af8260/transformed/jetified-maps-logo-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] /Users/stipe/.gradle/caches/transforms-3/f58122bb093e3f221262669ae1f4ac6a/transformed/jetified-maps-compass-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] /Users/stipe/.gradle/caches/transforms-3/be161c51c5727c9115c82e5d43bb37a7/transformed/jetified-maps-gestures-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d5e1b5765acbc04e69387f129714830f/transformed/jetified-maps-attribution-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a892e44a3600ae984541da2971e1feda/transformed/jetified-maps-viewport-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] /Users/stipe/.gradle/caches/transforms-3/0d2caa39c4b054cff15c80500c2cf795/transformed/jetified-maps-locationcomponent-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/e61d0ac8c806929884a162615e3e0c5c/transformed/jetified-maps-animation-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] /Users/stipe/.gradle/caches/transforms-3/8528cb84666346f6d0199f9d1539b244/transformed/jetified-maps-scalebar-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c888ffa7072e7c444cf84955e43bbee1/transformed/jetified-maps-overlay-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] /Users/stipe/.gradle/caches/transforms-3/3b9167b7f41f13e056382b70d88c724b/transformed/jetified-maps-lifecycle-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d0580ab8ce5cb6a16bb570fadcd7dde7/transformed/jetified-maps-telemetry-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.16.2] /Users/stipe/.gradle/caches/transforms-3/96b61db1a3585dade2cf53466a8551b5/transformed/jetified-base-10.16.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:2:1-40:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] /Users/stipe/.gradle/caches/transforms-3/96e1b2611fd0aefe07a073f9a1dbdd28/transformed/jetified-mapbox-android-gestures-0.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/f56de562c784239d6e1890595efaf5e8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/stipe/.gradle/caches/transforms-3/b296022bcb8988244ebdec69e40f9d3f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/stipe/.gradle/caches/transforms-3/b800a8ced0d95c33246731d6fd8329da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/stipe/.gradle/caches/transforms-3/1f33bc9336f3f2e81ade7aa4aa75d03a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stipe/.gradle/caches/transforms-3/4ec0ec8e3e4db5d90009152c071dc723/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/stipe/.gradle/caches/transforms-3/819fafab11fbb16f0ce6fabd6f377ee9/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] /Users/stipe/.gradle/caches/transforms-3/88936768410575102535511c6392b573/transformed/jetified-fragment-ktx-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.0] /Users/stipe/.gradle/caches/transforms-3/7889bdaf74bceedd9f498465d2a98c87/transformed/fragment-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/stipe/.gradle/caches/transforms-3/997b04fcad39cbad764974048ffbf8d3/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/stipe/.gradle/caches/transforms-3/76ac93c4e6caab3792dec32dc6fbfd3d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/stipe/.gradle/caches/transforms-3/2a2560adea5fd6b7586c2dc5aec436db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/stipe/.gradle/caches/transforms-3/4cbaafd5641dfd89e119f0d4e9533779/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stipe/.gradle/caches/transforms-3/cac7cc38cf48bf738704790f1909d16c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/stipe/.gradle/caches/transforms-3/aa39ec57afec1c36469c29c3a1f3e0fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/stipe/.gradle/caches/transforms-3/cd0dfe780d84170c68ac298752e4462b/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stipe/.gradle/caches/transforms-3/b54bf23d606802532933868948400fce/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8fd7a57eaf7b9d4522274ae29d5b3be8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/e7180449c473213b29b6706473a7a528/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/stipe/.gradle/caches/transforms-3/2240dbdb59feeabdfe8d078f53107edc/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stipe/.gradle/caches/transforms-3/258f1edb459d459f85fb95d6f0898a61/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/stipe/.gradle/caches/transforms-3/7c601317c56ab60639a13cae636d052d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/50ad43b5cedd0bc2e8a72423880efd73/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8f1618e166a940cbf23260fc34948ad6/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/stipe/.gradle/caches/transforms-3/3d988938d45abf29be09dce50854d53e/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/stipe/.gradle/caches/transforms-3/2620ec882dec4111d191e3cc95b66b6c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/stipe/.gradle/caches/transforms-3/f69899908e22d8cd33a16b8a72f16861/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/stipe/.gradle/caches/transforms-3/e0fa8f6af9ca93323942766ef5eb43ab/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3f1f29b94a8f358ccee720cf203e832f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ba0c1b7d8e2e5ec270a33237ad233937/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/fdb984d8d3cf33d493154d0e2ef647e7/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/893f9e777681dc2fc7c9dcb70b104481/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ed8599934eacd988a152cc5032befa37/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/stipe/.gradle/caches/transforms-3/69da2ef68ad78bb0df372044a5f0d9aa/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/stipe/.gradle/caches/transforms-3/80be51076d61e09e2a10b75798df2ce4/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3b92497b2f8980a97f301be4e4faff34/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/stipe/.gradle/caches/transforms-3/90da4874c18c96922dbd39a66b7b9b2a/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/stipe/.gradle/caches/transforms-3/e3fd8c1154a81b19ed169d929aba5302/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/stipe/.gradle/caches/transforms-3/afa24b18d0911cae97a74064d5d4e8a1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/stipe/.gradle/caches/transforms-3/1d5e801b285cde0ce1d9e8700e28b3a8/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.common:logger:0.8.0] /Users/stipe/.gradle/caches/transforms-3/2ef5c1f80f3f6a52dcce866544d59cb2/transformed/jetified-logger-0.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.8.0] /Users/stipe/.gradle/caches/transforms-3/28243c503a5ac5a37335be47ae37b131/transformed/jetified-loader-0.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.8.0] /Users/stipe/.gradle/caches/transforms-3/d79cc4040bda84d017c8210774e3085a/transformed/jetified-common-0.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/stipe/.gradle/caches/transforms-3/00749ad66eaaff98581c422c0da4b177/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stipe/.gradle/caches/transforms-3/1b4ea7f920b9e0343e41238a1dbcda94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stipe/.gradle/caches/transforms-3/a8b70b577b10e0a171ec62e1c70d7c3e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/stipe/.gradle/caches/transforms-3/a475c4917aac36fef0d057843653fd8f/transformed/jetified-viewbinding-7.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/stipe/.gradle/caches/transforms-3/9ad5d44b9bde83a725a208c7d1bf8cc3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stipe/.gradle/caches/transforms-3/5f1ba5a92ca7be85722aeddc30beee39/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/stipe/.gradle/caches/transforms-3/5585290cea5c5869d701391977a9fe3f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stipe/.gradle/caches/transforms-3/2aa48d712e73eee2e1ccbf91b4db4a9a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/3a4a0ddbea5d4622d2dc42aba3d4fd28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/stipe/.gradle/caches/transforms-3/9dc36b895547dbf888a3ccafa8263701/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/stipe/.gradle/caches/transforms-3/9fa5b6d18bf7a0671be9a520e2d59774/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/stipe/.gradle/caches/transforms-3/e340590b769072f2985eeb4eee794863/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/stipe/.gradle/caches/transforms-3/31907b3765c2df545d7788460413c014/transformed/jetified-androidsvg-aar-1.4/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:3:5-77
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:14:5-77
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:3:22-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:10:5-81
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/stipe/Desktop/VENU/untitled/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-sdk
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+MERGED from [com.mapbox.navigation:ui-dropin:2.17.6] /Users/stipe/.gradle/caches/transforms-3/0539ee703b55b4629f1a160636f3366a/transformed/jetified-ui-dropin-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-dropin:2.17.6] /Users/stipe/.gradle/caches/transforms-3/0539ee703b55b4629f1a160636f3366a/transformed/jetified-ui-dropin-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:android:2.17.6] /Users/stipe/.gradle/caches/transforms-3/40708ca7b0b3ff651ce0ead92ae2fc2a/transformed/jetified-android-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:android:2.17.6] /Users/stipe/.gradle/caches/transforms-3/40708ca7b0b3ff651ce0ead92ae2fc2a/transformed/jetified-android-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-app:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d98f0d3b4f4fbd1c6473e064eedde217/transformed/jetified-ui-app-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-app:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d98f0d3b4f4fbd1c6473e064eedde217/transformed/jetified-ui-app-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6f49b6629257b6e0db8b1f7e51d08dae/transformed/jetified-ui-maps-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maps:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6f49b6629257b6e0db8b1f7e51d08dae/transformed/jetified-ui-maps-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d8a04cabfb9aefab00d4bc942b43830a/transformed/jetified-ui-maneuver-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-maneuver:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d8a04cabfb9aefab00d4bc942b43830a/transformed/jetified-ui-maneuver-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.17.6] /Users/stipe/.gradle/caches/transforms-3/12c2df0069bd068a4759ce1f6cd0766f/transformed/jetified-ui-shields-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-shields:2.17.6] /Users/stipe/.gradle/caches/transforms-3/12c2df0069bd068a4759ce1f6cd0766f/transformed/jetified-ui-shields-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.17.6] /Users/stipe/.gradle/caches/transforms-3/b41f872bde363eff3d2cc228636f709b/transformed/jetified-ui-status-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-status:2.17.6] /Users/stipe/.gradle/caches/transforms-3/b41f872bde363eff3d2cc228636f709b/transformed/jetified-ui-status-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.10.0] /Users/stipe/.gradle/caches/transforms-3/32ba0e85cc550ba62d7c220cf5154b46/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/stipe/.gradle/caches/transforms-3/32ba0e85cc550ba62d7c220cf5154b46/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ee7a99cdcf45c0284b30c70ac18780c0/transformed/jetified-ui-speedlimit-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-speedlimit:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ee7a99cdcf45c0284b30c70ac18780c0/transformed/jetified-ui-speedlimit-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2ccc15906ad1f99a0fbc4ea6fac81821/transformed/jetified-ui-tripprogress-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-tripprogress:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2ccc15906ad1f99a0fbc4ea6fac81821/transformed/jetified-ui-tripprogress-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d0825598f2dd0424ea0a33fb92c47b5b/transformed/jetified-ui-voice-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-voice:2.17.6] /Users/stipe/.gradle/caches/transforms-3/d0825598f2dd0424ea0a33fb92c47b5b/transformed/jetified-ui-voice-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/a867eeffb357efdc2081bc9d91adf64a/transformed/jetified-ui-base-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/a867eeffb357efdc2081bc9d91adf64a/transformed/jetified-ui-base-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.17.6] /Users/stipe/.gradle/caches/transforms-3/265f2577cc161d55c0afce3e51e1ec95/transformed/jetified-ui-resources-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-resources:2.17.6] /Users/stipe/.gradle/caches/transforms-3/265f2577cc161d55c0afce3e51e1ec95/transformed/jetified-ui-resources-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/df8b7178136571f0bb3aaf075a688562/transformed/jetified-ui-utils-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:ui-utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/df8b7178136571f0bb3aaf075a688562/transformed/jetified-ui-utils-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:copilot:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ffef75ff7d6d49af18c49919002c1176/transformed/jetified-copilot-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:copilot:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ffef75ff7d6d49af18c49919002c1176/transformed/jetified-copilot-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android:10.16.2] /Users/stipe/.gradle/caches/transforms-3/325fb6ffcacfc5f06a0890c0b20123e5/transformed/jetified-android-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.16.2] /Users/stipe/.gradle/caches/transforms-3/325fb6ffcacfc5f06a0890c0b20123e5/transformed/jetified-android-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:router:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2bf5e11e81561e6fdb60a2f327eeeef9/transformed/jetified-router-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:router:2.17.6] /Users/stipe/.gradle/caches/transforms-3/2bf5e11e81561e6fdb60a2f327eeeef9/transformed/jetified-router-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.17.6] /Users/stipe/.gradle/caches/transforms-3/5acb84649e18412c1b4dae446571a46c/transformed/jetified-notification-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:notification:2.17.6] /Users/stipe/.gradle/caches/transforms-3/5acb84649e18412c1b4dae446571a46c/transformed/jetified-notification-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ab9b643a5d730cc96fe854a136972bf0/transformed/jetified-navigator-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:navigator:2.17.6] /Users/stipe/.gradle/caches/transforms-3/ab9b643a5d730cc96fe854a136972bf0/transformed/jetified-navigator-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.17.6] /Users/stipe/.gradle/caches/transforms-3/9ed64c37b7d418b6d94fb1484f436bf2/transformed/jetified-metrics-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:metrics:2.17.6] /Users/stipe/.gradle/caches/transforms-3/9ed64c37b7d418b6d94fb1484f436bf2/transformed/jetified-metrics-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6c66da04ba9b5bf1b91e95f5edcdf322/transformed/jetified-base-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:base:2.17.6] /Users/stipe/.gradle/caches/transforms-3/6c66da04ba9b5bf1b91e95f5edcdf322/transformed/jetified-base-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/7192ebedd851b65dad772d2b78f1c825/transformed/jetified-utils-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigation:utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/7192ebedd851b65dad772d2b78f1c825/transformed/jetified-utils-2.17.6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:okhttp:23.8.4] /Users/stipe/.gradle/caches/transforms-3/49966d8e3ecc1212a5646913ae7e9f13/transformed/jetified-okhttp-23.8.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:23.8.4] /Users/stipe/.gradle/caches/transforms-3/49966d8e3ecc1212a5646913ae7e9f13/transformed/jetified-okhttp-23.8.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/281a820bc6e4fc97d39743ad96329142/transformed/jetified-maps-annotation-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/281a820bc6e4fc97d39743ad96329142/transformed/jetified-maps-annotation-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a47f0f6790b0fe03e1d1a7d94a08d6d7/transformed/jetified-maps-localization-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a47f0f6790b0fe03e1d1a7d94a08d6d7/transformed/jetified-maps-localization-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c43c5354ea7303a8617ca5660a7bf6ae/transformed/jetified-maps-style-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c43c5354ea7303a8617ca5660a7bf6ae/transformed/jetified-maps-style-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] /Users/stipe/.gradle/caches/transforms-3/fd02649980af9ec198b15a6e97af8260/transformed/jetified-maps-logo-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] /Users/stipe/.gradle/caches/transforms-3/fd02649980af9ec198b15a6e97af8260/transformed/jetified-maps-logo-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] /Users/stipe/.gradle/caches/transforms-3/f58122bb093e3f221262669ae1f4ac6a/transformed/jetified-maps-compass-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] /Users/stipe/.gradle/caches/transforms-3/f58122bb093e3f221262669ae1f4ac6a/transformed/jetified-maps-compass-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] /Users/stipe/.gradle/caches/transforms-3/be161c51c5727c9115c82e5d43bb37a7/transformed/jetified-maps-gestures-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] /Users/stipe/.gradle/caches/transforms-3/be161c51c5727c9115c82e5d43bb37a7/transformed/jetified-maps-gestures-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d5e1b5765acbc04e69387f129714830f/transformed/jetified-maps-attribution-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d5e1b5765acbc04e69387f129714830f/transformed/jetified-maps-attribution-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a892e44a3600ae984541da2971e1feda/transformed/jetified-maps-viewport-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] /Users/stipe/.gradle/caches/transforms-3/a892e44a3600ae984541da2971e1feda/transformed/jetified-maps-viewport-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] /Users/stipe/.gradle/caches/transforms-3/0d2caa39c4b054cff15c80500c2cf795/transformed/jetified-maps-locationcomponent-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] /Users/stipe/.gradle/caches/transforms-3/0d2caa39c4b054cff15c80500c2cf795/transformed/jetified-maps-locationcomponent-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/e61d0ac8c806929884a162615e3e0c5c/transformed/jetified-maps-animation-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] /Users/stipe/.gradle/caches/transforms-3/e61d0ac8c806929884a162615e3e0c5c/transformed/jetified-maps-animation-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] /Users/stipe/.gradle/caches/transforms-3/8528cb84666346f6d0199f9d1539b244/transformed/jetified-maps-scalebar-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] /Users/stipe/.gradle/caches/transforms-3/8528cb84666346f6d0199f9d1539b244/transformed/jetified-maps-scalebar-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c888ffa7072e7c444cf84955e43bbee1/transformed/jetified-maps-overlay-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] /Users/stipe/.gradle/caches/transforms-3/c888ffa7072e7c444cf84955e43bbee1/transformed/jetified-maps-overlay-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] /Users/stipe/.gradle/caches/transforms-3/3b9167b7f41f13e056382b70d88c724b/transformed/jetified-maps-lifecycle-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] /Users/stipe/.gradle/caches/transforms-3/3b9167b7f41f13e056382b70d88c724b/transformed/jetified-maps-lifecycle-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d0580ab8ce5cb6a16bb570fadcd7dde7/transformed/jetified-maps-telemetry-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] /Users/stipe/.gradle/caches/transforms-3/d0580ab8ce5cb6a16bb570fadcd7dde7/transformed/jetified-maps-telemetry-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.2] /Users/stipe/.gradle/caches/transforms-3/96b61db1a3585dade2cf53466a8551b5/transformed/jetified-base-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.2] /Users/stipe/.gradle/caches/transforms-3/96b61db1a3585dade2cf53466a8551b5/transformed/jetified-base-10.16.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] /Users/stipe/.gradle/caches/transforms-3/96e1b2611fd0aefe07a073f9a1dbdd28/transformed/jetified-mapbox-android-gestures-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] /Users/stipe/.gradle/caches/transforms-3/96e1b2611fd0aefe07a073f9a1dbdd28/transformed/jetified-mapbox-android-gestures-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/f56de562c784239d6e1890595efaf5e8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/f56de562c784239d6e1890595efaf5e8/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/stipe/.gradle/caches/transforms-3/b296022bcb8988244ebdec69e40f9d3f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/stipe/.gradle/caches/transforms-3/b296022bcb8988244ebdec69e40f9d3f/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/stipe/.gradle/caches/transforms-3/b800a8ced0d95c33246731d6fd8329da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/stipe/.gradle/caches/transforms-3/b800a8ced0d95c33246731d6fd8329da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/stipe/.gradle/caches/transforms-3/1f33bc9336f3f2e81ade7aa4aa75d03a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/stipe/.gradle/caches/transforms-3/1f33bc9336f3f2e81ade7aa4aa75d03a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stipe/.gradle/caches/transforms-3/4ec0ec8e3e4db5d90009152c071dc723/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/stipe/.gradle/caches/transforms-3/4ec0ec8e3e4db5d90009152c071dc723/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/stipe/.gradle/caches/transforms-3/819fafab11fbb16f0ce6fabd6f377ee9/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/stipe/.gradle/caches/transforms-3/819fafab11fbb16f0ce6fabd6f377ee9/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] /Users/stipe/.gradle/caches/transforms-3/88936768410575102535511c6392b573/transformed/jetified-fragment-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0] /Users/stipe/.gradle/caches/transforms-3/88936768410575102535511c6392b573/transformed/jetified-fragment-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0] /Users/stipe/.gradle/caches/transforms-3/7889bdaf74bceedd9f498465d2a98c87/transformed/fragment-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0] /Users/stipe/.gradle/caches/transforms-3/7889bdaf74bceedd9f498465d2a98c87/transformed/fragment-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/stipe/.gradle/caches/transforms-3/997b04fcad39cbad764974048ffbf8d3/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/stipe/.gradle/caches/transforms-3/997b04fcad39cbad764974048ffbf8d3/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/stipe/.gradle/caches/transforms-3/76ac93c4e6caab3792dec32dc6fbfd3d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/stipe/.gradle/caches/transforms-3/76ac93c4e6caab3792dec32dc6fbfd3d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/stipe/.gradle/caches/transforms-3/2a2560adea5fd6b7586c2dc5aec436db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/stipe/.gradle/caches/transforms-3/2a2560adea5fd6b7586c2dc5aec436db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/stipe/.gradle/caches/transforms-3/4cbaafd5641dfd89e119f0d4e9533779/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/stipe/.gradle/caches/transforms-3/4cbaafd5641dfd89e119f0d4e9533779/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stipe/.gradle/caches/transforms-3/cac7cc38cf48bf738704790f1909d16c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/stipe/.gradle/caches/transforms-3/cac7cc38cf48bf738704790f1909d16c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/stipe/.gradle/caches/transforms-3/aa39ec57afec1c36469c29c3a1f3e0fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/stipe/.gradle/caches/transforms-3/aa39ec57afec1c36469c29c3a1f3e0fc/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/stipe/.gradle/caches/transforms-3/cd0dfe780d84170c68ac298752e4462b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/stipe/.gradle/caches/transforms-3/cd0dfe780d84170c68ac298752e4462b/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stipe/.gradle/caches/transforms-3/b54bf23d606802532933868948400fce/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/stipe/.gradle/caches/transforms-3/b54bf23d606802532933868948400fce/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8fd7a57eaf7b9d4522274ae29d5b3be8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8fd7a57eaf7b9d4522274ae29d5b3be8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/e7180449c473213b29b6706473a7a528/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/e7180449c473213b29b6706473a7a528/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/stipe/.gradle/caches/transforms-3/2240dbdb59feeabdfe8d078f53107edc/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/stipe/.gradle/caches/transforms-3/2240dbdb59feeabdfe8d078f53107edc/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stipe/.gradle/caches/transforms-3/258f1edb459d459f85fb95d6f0898a61/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/stipe/.gradle/caches/transforms-3/258f1edb459d459f85fb95d6f0898a61/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/stipe/.gradle/caches/transforms-3/7c601317c56ab60639a13cae636d052d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/stipe/.gradle/caches/transforms-3/7c601317c56ab60639a13cae636d052d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/50ad43b5cedd0bc2e8a72423880efd73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/50ad43b5cedd0bc2e8a72423880efd73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8f1618e166a940cbf23260fc34948ad6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/stipe/.gradle/caches/transforms-3/8f1618e166a940cbf23260fc34948ad6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/stipe/.gradle/caches/transforms-3/3d988938d45abf29be09dce50854d53e/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/stipe/.gradle/caches/transforms-3/3d988938d45abf29be09dce50854d53e/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/stipe/.gradle/caches/transforms-3/2620ec882dec4111d191e3cc95b66b6c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/stipe/.gradle/caches/transforms-3/2620ec882dec4111d191e3cc95b66b6c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/stipe/.gradle/caches/transforms-3/f69899908e22d8cd33a16b8a72f16861/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/stipe/.gradle/caches/transforms-3/f69899908e22d8cd33a16b8a72f16861/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/stipe/.gradle/caches/transforms-3/e0fa8f6af9ca93323942766ef5eb43ab/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/stipe/.gradle/caches/transforms-3/e0fa8f6af9ca93323942766ef5eb43ab/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3f1f29b94a8f358ccee720cf203e832f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3f1f29b94a8f358ccee720cf203e832f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ba0c1b7d8e2e5ec270a33237ad233937/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ba0c1b7d8e2e5ec270a33237ad233937/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/fdb984d8d3cf33d493154d0e2ef647e7/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/fdb984d8d3cf33d493154d0e2ef647e7/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/893f9e777681dc2fc7c9dcb70b104481/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/stipe/.gradle/caches/transforms-3/893f9e777681dc2fc7c9dcb70b104481/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ed8599934eacd988a152cc5032befa37/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/stipe/.gradle/caches/transforms-3/ed8599934eacd988a152cc5032befa37/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/stipe/.gradle/caches/transforms-3/69da2ef68ad78bb0df372044a5f0d9aa/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/stipe/.gradle/caches/transforms-3/69da2ef68ad78bb0df372044a5f0d9aa/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/stipe/.gradle/caches/transforms-3/80be51076d61e09e2a10b75798df2ce4/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/stipe/.gradle/caches/transforms-3/80be51076d61e09e2a10b75798df2ce4/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3b92497b2f8980a97f301be4e4faff34/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/stipe/.gradle/caches/transforms-3/3b92497b2f8980a97f301be4e4faff34/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/stipe/.gradle/caches/transforms-3/90da4874c18c96922dbd39a66b7b9b2a/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/stipe/.gradle/caches/transforms-3/90da4874c18c96922dbd39a66b7b9b2a/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/stipe/.gradle/caches/transforms-3/e3fd8c1154a81b19ed169d929aba5302/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/stipe/.gradle/caches/transforms-3/e3fd8c1154a81b19ed169d929aba5302/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/stipe/.gradle/caches/transforms-3/afa24b18d0911cae97a74064d5d4e8a1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/stipe/.gradle/caches/transforms-3/afa24b18d0911cae97a74064d5d4e8a1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/stipe/.gradle/caches/transforms-3/1d5e801b285cde0ce1d9e8700e28b3a8/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/stipe/.gradle/caches/transforms-3/1d5e801b285cde0ce1d9e8700e28b3a8/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.common:logger:0.8.0] /Users/stipe/.gradle/caches/transforms-3/2ef5c1f80f3f6a52dcce866544d59cb2/transformed/jetified-logger-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.8.0] /Users/stipe/.gradle/caches/transforms-3/2ef5c1f80f3f6a52dcce866544d59cb2/transformed/jetified-logger-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] /Users/stipe/.gradle/caches/transforms-3/28243c503a5ac5a37335be47ae37b131/transformed/jetified-loader-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] /Users/stipe/.gradle/caches/transforms-3/28243c503a5ac5a37335be47ae37b131/transformed/jetified-loader-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] /Users/stipe/.gradle/caches/transforms-3/d79cc4040bda84d017c8210774e3085a/transformed/jetified-common-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] /Users/stipe/.gradle/caches/transforms-3/d79cc4040bda84d017c8210774e3085a/transformed/jetified-common-0.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/stipe/.gradle/caches/transforms-3/00749ad66eaaff98581c422c0da4b177/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/stipe/.gradle/caches/transforms-3/00749ad66eaaff98581c422c0da4b177/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stipe/.gradle/caches/transforms-3/1b4ea7f920b9e0343e41238a1dbcda94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/stipe/.gradle/caches/transforms-3/1b4ea7f920b9e0343e41238a1dbcda94/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stipe/.gradle/caches/transforms-3/a8b70b577b10e0a171ec62e1c70d7c3e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/stipe/.gradle/caches/transforms-3/a8b70b577b10e0a171ec62e1c70d7c3e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/stipe/.gradle/caches/transforms-3/a475c4917aac36fef0d057843653fd8f/transformed/jetified-viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.2] /Users/stipe/.gradle/caches/transforms-3/a475c4917aac36fef0d057843653fd8f/transformed/jetified-viewbinding-7.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/stipe/.gradle/caches/transforms-3/9ad5d44b9bde83a725a208c7d1bf8cc3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/stipe/.gradle/caches/transforms-3/9ad5d44b9bde83a725a208c7d1bf8cc3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stipe/.gradle/caches/transforms-3/5f1ba5a92ca7be85722aeddc30beee39/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/stipe/.gradle/caches/transforms-3/5f1ba5a92ca7be85722aeddc30beee39/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/stipe/.gradle/caches/transforms-3/5585290cea5c5869d701391977a9fe3f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/stipe/.gradle/caches/transforms-3/5585290cea5c5869d701391977a9fe3f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stipe/.gradle/caches/transforms-3/2aa48d712e73eee2e1ccbf91b4db4a9a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/stipe/.gradle/caches/transforms-3/2aa48d712e73eee2e1ccbf91b4db4a9a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/3a4a0ddbea5d4622d2dc42aba3d4fd28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/stipe/.gradle/caches/transforms-3/3a4a0ddbea5d4622d2dc42aba3d4fd28/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/stipe/.gradle/caches/transforms-3/9dc36b895547dbf888a3ccafa8263701/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/stipe/.gradle/caches/transforms-3/9dc36b895547dbf888a3ccafa8263701/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/stipe/.gradle/caches/transforms-3/9fa5b6d18bf7a0671be9a520e2d59774/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/stipe/.gradle/caches/transforms-3/9fa5b6d18bf7a0671be9a520e2d59774/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/stipe/.gradle/caches/transforms-3/e340590b769072f2985eeb4eee794863/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/stipe/.gradle/caches/transforms-3/e340590b769072f2985eeb4eee794863/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/stipe/.gradle/caches/transforms-3/31907b3765c2df545d7788460413c014/transformed/jetified-androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] /Users/stipe/.gradle/caches/transforms-3/31907b3765c2df545d7788460413c014/transformed/jetified-androidsvg-aar-1.4/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stipe/Desktop/VENU/untitled/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.mapbox.navigation:ui-dropin:2.17.6] /Users/stipe/.gradle/caches/transforms-3/0539ee703b55b4629f1a160636f3366a/transformed/jetified-ui-dropin-2.17.6/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from [com.mapbox.navigation:ui-dropin:2.17.6] /Users/stipe/.gradle/caches/transforms-3/0539ee703b55b4629f1a160636f3366a/transformed/jetified-ui-dropin-2.17.6/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:12:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:12:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:13:22-83
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:16:5-79
+MERGED from [com.mapbox.navigation:utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/7192ebedd851b65dad772d2b78f1c825/transformed/jetified-utils-2.17.6/AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.navigation:utils:2.17.6] /Users/stipe/.gradle/caches/transforms-3/7192ebedd851b65dad772d2b78f1c825/transformed/jetified-utils-2.17.6/AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:16:22-76
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:19:9-27:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:13:9-23:20
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:14:9-24:20
+MERGED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:14:9-24:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/stipe/.gradle/caches/transforms-3/d784e722288ecc7e531ce3d879271e7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:23:13-31
+	android:authorities
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:21:13-68
+	android:exported
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:20:13-67
+meta-data#com.mapbox.navigation.core.internal.MapboxNavigationSDKInitializer
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:24:13-26:52
+	android:value
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:26:17-49
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:25:17-98
+service#com.mapbox.navigation.core.trip.service.NavigationNotificationService
+ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:29:9-31:56
+	android:foregroundServiceType
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:31:13-53
+	android:name
+		ADDED from [com.mapbox.navigation:core:2.17.6] /Users/stipe/.gradle/caches/transforms-3/e21ac6aeb6c5f52400d29dc2aa153e7a/transformed/jetified-core-2.17.6/AndroidManifest.xml:30:13-97
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:10:22-76
+meta-data#com.mapbox.navigator.MapboxNavigationNativeInitializer
+ADDED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [com.mapbox.navigator:mapbox-navigation-native:161.1.2] /Users/stipe/.gradle/caches/transforms-3/7c8ce0da890d6c2bc09d8c4010c93488/transformed/jetified-mapbox-navigation-native-161.1.2/AndroidManifest.xml:21:17-86
+uses-feature#0x00020000
+ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:10:5-12:35
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:11:9-41
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:12:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:14:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:19:22-73
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] /Users/stipe/.gradle/caches/transforms-3/21483a9cf6314dd17bd7a3c81a05c4a4/transformed/jetified-android-core-10.16.2/AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:21:13-23:52
+	android:value
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:23:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:22:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:26:9-33:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:27:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:30:13-32:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:31:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:31:25-122
+service#com.mapbox.common.LifecycleService
+ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] /Users/stipe/.gradle/caches/transforms-3/e27d0b2df92ac243293fb2a017b81f86/transformed/jetified-common-23.8.4/AndroidManifest.xml:36:13-62
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/stipe/.gradle/caches/transforms-3/eed50b9244137e69df193fcd652f8b25/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/stipe/.gradle/caches/transforms-3/b19c7478678b82db47bbf0288caf4a18/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/stipe/.gradle/caches/transforms-3/d015a3b452b0b592835f88ee1dfd4547/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/stipe/.gradle/caches/transforms-3/9a4d24dbc31fd30c4c3085583ba26b91/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/stipe/.gradle/caches/transforms-3/b2c3d921a76795c68fa4dd87d5fb328a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/stipe/.gradle/caches/transforms-3/42d5752a03189e359c198ef83c276a33/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.untitled.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.untitled.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/stipe/.gradle/caches/transforms-3/53a9912019443a6726e34dfbd0afa192/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/stipe/.gradle/caches/transforms-3/5fe1040436280fb92d746d00ad8746db/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/stipe/.gradle/caches/transforms-3/d229b1bc777c5d41b2e2650a87096502/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/stipe/.gradle/caches/transforms-3/9213a919ec47a7dffca478a944d024fd/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74

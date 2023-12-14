@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.untitled.app-mergeDebugResources-68:/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/Users/stipe/.gradle/caches/transforms-3/0a396b28bd6733ff0240ac84a66d0c5c/transformed/jetified-ui-voice-2.17.6/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,105",
+                        "endColumns": "49,51",
+                        "endOffsets": "100,152"
+                    },
+                    "to": {
+                        "startLines": "9,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "418,784",
+                        "endColumns": "49,51",
+                        "endOffsets": "463,831"
+                    }
+                },
+                {
+                    "source": "/Users/stipe/.gradle/caches/transforms-3/474e987c4d78f41662a3d6970af19046/transformed/jetified-base-2.17.6/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,8,9,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,357,418,498",
+                        "endLines": "7,8,9,10",
+                        "endColumns": "14,60,79,79",
+                        "endOffsets": "352,413,493,573"
+                    },
+                    "to": {
+                        "startLines": "2,8,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "100,357,468,704",
+                        "endLines": "7,8,10,14",
+                        "endColumns": "14,60,79,79",
+                        "endOffsets": "352,413,543,779"
+                    }
+                },
+                {
+                    "source": "/Users/stipe/.gradle/caches/transforms-3/731a94e8bcf274365ffd67cb022af115/transformed/jetified-utils-2.17.6/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,110,160",
+                        "endColumns": "54,49,50",
+                        "endOffsets": "105,155,206"
+                    },
+                    "to": {
+                        "startLines": "11,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "548,603,653",
+                        "endColumns": "54,49,50",
+                        "endOffsets": "598,648,699"
+                    }
+                }
+            ]
+        }
+    ]
+}
